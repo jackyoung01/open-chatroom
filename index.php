@@ -63,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action']) && $_POST['a
     <link rel="stylesheet" href="/src/css/index.css">
 </head>
 <body>
+    <div class="background-container"></div> <!-- 背景容器 -->
     <div class="ripple-container"></div> <!-- 水波效果容器 -->
 
     <!-- 左上角菜单按钮 -->
